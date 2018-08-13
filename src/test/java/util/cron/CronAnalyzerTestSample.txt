@@ -1,0 +1,11 @@
+#########################################
+########### SAMPLE ######################
+#########################################
+##crontab comment
+#0 0 * * * /util/oss/backup_cron/cron-backup.sh
+### EDI API Daemon 점검
+11,41 * * * * /util/oss/daemon/A01.sh >> xxx.log
+31 4 * * * /util/oss/daemon/A02.sh >> xxx.log
+30 20 6 4 * /util/oss/daemon/A03.sh >> xxx.log
+11,41 * * * * /util/oss/daemon/B01.sh >> xxx.log
+31 4 * * * /util/oss/daemon/B02.sh >> xxx.log
